@@ -1,7 +1,7 @@
 # qugeev
 A simple way to evaluate question generation models.
 
-Questions Asking is an important NLP task. Making sure that your model predicts the right answers are predicted is crucial for quality assurance.
+Questions Asking is an important NLP task. Making sure that the right answers are predicted is crucial for quality assurance.
 I will assume that you have access to a software, library or tool of some kind, that can generate question-answer pairs from text (called the context).
 
 This library uses [deepset's haystack](https://github.com/deepset-ai/haystack) to evaluate the answers your model (tool or software) predicts.
